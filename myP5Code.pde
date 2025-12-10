@@ -11,7 +11,30 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //circles
+  fill(247, 198, 173)
+  ellipse(200,150,300,310)
+ //eyes
+ fill(255, 255, 255) 
+  ellipse(130,145,130,113)
+  ellipse(270,145,130,113)
+   
+   fill(245, 164, 164)
+   ellipse(120,145,109,108)
+   ellipse(259,145,109,108)
+
+  fill(0, 0, 0)
+   ellipse(248,145,85,95)
+   ellipse(108,145,85,95)
+
+   fill(255,255,255)
+   ellipse(95,145,40,40)
+   ellipse(243,145,40,40)
+
+//mouth
+ellipse(200,90,40,40)
+
+
 
   
 
