@@ -31,8 +31,34 @@ void draw(){
    ellipse(95,145,40,40)
    ellipse(243,145,40,40)
 
+
 //mouth
-ellipse(200,90,40,40)
+fill(0,0,0)
+arc(200,245,40,40,radians(20),radians(170))
+
+//t
+fill(255, 201, 201)
+ellipse(204,258,20,14)
+
+//hair
+fill(247, 146, 92)
+rotate(.2)
+rect(54,0,90,100)
+rotate(-.2)
+
+rect(128,10,90,110)
+
+//bow
+fill(173, 71, 71)
+rotate(-.3)
+ellipse(310,88,200,101)
+rotate(.3)
+
+rotate(.4)
+ellipse(100,-30,200,101)
+rotate(-.4)
+
+ellipse(200,8,70,70)
 
 
 
