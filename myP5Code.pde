@@ -11,61 +11,26 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  //circles
-  fill(247, 198, 173)
-  ellipse(200,201,300,310)
- //eyes
- fill(255, 255, 255) 
-  ellipse(130,190,130,113)
-  ellipse(270,190,130,113)
-   
-   fill(245, 164, 164)
-   ellipse(120,189,109,108)
-   ellipse(259,189,109,108)
+  
+//body
+  fill(255, 153, 184)
+  ellipse(100,120,80,100)
+  ellipse(300,120,80,100)
 
-  fill(0, 0, 0)
-   ellipse(248,190,85,95)
-   ellipse(108,190,85,95)
-
-   fill(255,255,255)
-   ellipse(120,180,40,40)
-   ellipse(243,189,40,40)
-
-
-//mouth
-fill(0,0,0)
-arc(200,290,40,40,radians(20),radians(170))
-
-//t
-fill(255, 201, 201)
-ellipse(204,304,20,14)
-
-//hair
-fill(247, 146, 92)
-rotate(.5)
-rect(60,-30,90,129)
-rotate(-.5)
-
-rect(105,30,90,129)
-rect(200,30,90,129)
-
-rotate(-.2)
-rect(260,90,90,129)
-rotate(.2)
+  ellipse(300,250,80,100)
 
 
 
-//bow
-fill(173, 71, 71)
-rotate(-.9)
-ellipse(230,300,200,101)
-rotate(.9)
+ellipse(200,200,200,200)
 
-rotate(.4)
-ellipse(100,20,200,101)
-rotate(-.4)
 
-ellipse(200,105,70,70)
+
+
+
+
+
+
+
 
 
 
