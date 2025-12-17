@@ -14,15 +14,39 @@ void draw(){
   
 //body
   fill(255, 153, 184)
-  ellipse(100,120,80,100)
-  ellipse(300,120,80,100)
+  ellipse(75,200,80,100)
+  ellipse(330,200,80,100)
 
-  ellipse(300,250,80,100)
+ //Features
+ fill(166, 18, 18)
+  ellipse(300,300,80,100)
+  ellipse(100,300,80,100)
 
 
+fill(255, 153, 184)
+ellipse(200,200,250,270)
 
-ellipse(200,200,200,200)
+//eyes
+fill(80, 129, 181)
+ellipse(160,180,30,70)
+ellipse(240,180,30,70)
+//eyes 2
+fill(0,0,0)
+ellipse(160,170,25,48)
+ellipse(240,170,25,48)
+//eyes 3
+fill(225,225,225)
+ellipse(160,162,15,35)
+ellipse(240,162,15,35)
 
+//blush 
+fill(232, 90, 154)
+ellipse(125,225,60,28)
+ellipse(270,225,60,28)
+
+//mouth
+//ellipse(200,260,50,0)
+arc(200,260,50,50,radians(0),radians(180))
 
 
 
